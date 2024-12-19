@@ -139,6 +139,26 @@ class Voiture
             }     
         }
     }
+    //VARIANTE DE LA FONCTION ROULER SANS BOUCLE
+    // public function rouler($km)
+    // {
+    //     $essenceConso = $km * $this->getConsommation();   
+    //     $this->setEssence($this->getEssence() - $essenceConso);
+
+    //     if ($this->getEssence() > 0) {
+    //         echo 'La ' . $this->marque  . ' roule ' . $km .  ' km<br>';
+    //     } elseif ($this->getEssence() < 0) {
+    //         $EssenceEnTrop = -$this->getEssence();
+    //         $kmEnTrop = $EssenceEnTrop / $this->getConsommation();
+    //         $km = $km - $kmEnTrop;
+    //         echo 'La ' . $this->marque  . ' roule ' . $km .  ' km<br>';
+    //         $this->setEssence(0);
+    //         echo 'Vous êtes en panne';
+    //     }
+    //     $this->setCompteur($km + $this->getCompteur());
+    // }
+
+    //-------------------------------------
 
     // Pour cette fonction j'utilise les getters ou les setters pour manipuler et afficher 
     // les données mais j'aurais très bien pu faire comme la méthode rouler et utiliser 
